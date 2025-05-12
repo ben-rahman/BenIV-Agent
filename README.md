@@ -26,4 +26,17 @@ A research prototype for AgentX @Berkeley 2025.
 ---
 
 ## 📁 Folder Structure
+BenIV-Agent/
+├── app/
+│ ├── main.py # Streamlit UI
+│ ├── memory_manager.py # LangGraph-style memory
+│ └── iv_reasoning.py # IV simulation (DoWhy)
+├── data/
+│ └── sample_dialogues.json
+├── assets/
+│ └── diagrams/
+├── docs/
+│ └── proposal_1pager.pdf
+├── requirements.txt
+└── README.md
 
